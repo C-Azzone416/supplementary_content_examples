@@ -27,7 +27,7 @@ public class CustomDialogFragment extends DialogFragment {
         AlertDialog.Builder  builder = new AlertDialog.Builder(getActivity());
         // TODO 02. Get the layout inflater to inflate the layout and create the corresponding view
         // TODO 03. Inflate and set the layout for the dialog
-        // Pass null as the parent view because its going in the dialog layout
+        // Pass null as the parent view because this view it's going to be used as content of the dialog
         builder
                 .setPositiveButton(R.string.sign_in_button_label, new DialogInterface.OnClickListener() {
                     @Override
